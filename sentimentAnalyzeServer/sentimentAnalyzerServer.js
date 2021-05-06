@@ -19,6 +19,7 @@ function getNLUInstance() {
     return naturalLanguageUnderstanding;
 }
 
+const app = new express();
 app.use(express.static('client'))
 
 const cors_app = require('cors');
